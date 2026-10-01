@@ -1,0 +1,101 @@
+#headerContainer{
+    height: 75px;
+    background-color: #4560F5;
+}
+#optionsContainer{
+    width: 350px;
+    margin: 0 auto;
+    background-color: #7AC8FF;
+    height: 75px;
+
+}
+#rectangle{
+    width: 50px;
+    height: 15px;
+    background-color: dimgrey;
+    border-radius: 0;
+    margin: 0 auto;
+
+}
+#circle1{
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+    background-color: dimgrey;
+    margin: 0 auto;
+    position: relative;
+    top: -15px;
+    left: -25px;
+
+}
+#circle2{
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+    background-color: dimgrey;
+    margin: 0 auto;
+    position: relative;
+    top: -30px;
+    left: 25px;
+
+}
+#dot{
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    background-color: #391CE5;
+    margin: 0 auto;
+    position: relative;
+    top: -47px;
+    left: -25px;
+
+}
+#theToggle{
+    width: 150px;
+    float: left;
+   
+    margin: auto;
+    -ms-transform: translateY(50%);
+  transform: translateY(50%);
+}
+#link1, #link2{
+    width: 100px;
+    float: left;
+    text-align: center;
+    height: 50px;
+    text-decoration: none;
+    -ms-transform: translateY(50%);
+  transform: translateY(50%);
+
+}
+#link1 a, #link2 a{
+   
+    color: inherit; /* blue colors for links too */
+    text-decoration: inherit; /* no underline */
+    
+}
+#signlogin{
+    float: right;
+    background-color: chocolate;
+    height: 75px;
+    width: 250px;
+    position: relative;
+    top: -75px;
+}
+#signlogin p{
+   text-align: center;
+   margin-top: 25px;
+   
+}
+#about{
+    position:absolute;
+    left: 0px;
+    top: 0px;
+    background-color: chocolate;
+    height: 75px;
+    width: 250px;
+}
+#about p{
+    text-align: center;
+    margin-top: 25px;
+}

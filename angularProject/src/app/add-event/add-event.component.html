@@ -1,0 +1,43 @@
+<div id="addForm">
+    <div id="title"><p>Add Event</p></div>
+    <div id="flexdiv">
+        <div id="filepicker">
+            <input type="file" accept="image/*" (change)="onImageSelected($event)">
+            </div>
+            <div id="imagedisplayarea">
+                <div id="displayimagebox">
+                    <img [src]="imageToDisplay" alt="Selected Image" *ngIf="imageToDisplay" id="image">
+                </div>
+            </div>
+        <div id="formdiv">
+            <p>Info:</p>
+            <div id="topdiv">
+                <div id="labels">
+                    <br>
+                    <label for="eventname">Event name:</label><br><br>
+                    <label for="eventdate">Date of event:</label><br><br>
+                    <label for="eventlocation">Event location:</label>
+                </div>
+                <div id="inputboxes">
+                    <input type="text" [(ngModel)]="eventName" id="eventname">
+                    <br>
+                    
+                    <input type="date" [(ngModel)]="eventDate" id="eventdate">
+                    <br>
+                    
+                    <input type="text" [(ngModel)]="eventLocation" id="eventlocation">
+                </div>
+            </div>
+            <div id="bottomdiv">
+                <label for="eventdescription">Event description:</label>
+                <br>
+                <br>
+                <textarea  cols="53" rows="6" [(ngModel)]="eventDescription" id="eventdescription"></textarea>
+            </div>
+        </div>
+    </div>
+    <div id="add">
+        <button routerLink="/events">Cancel</button>
+        <button (click)="addEvent()">Add event</button>
+    </div>
+</div>

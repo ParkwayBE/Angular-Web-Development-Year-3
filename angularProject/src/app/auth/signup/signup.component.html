@@ -1,0 +1,24 @@
+<div>
+    <div>
+      <form [formGroup]="signUpForm" (ngSubmit)="onSignup()" >
+        <div>
+          <label for="email">Email:</label>
+          <input type="email" id="email" formControlName="email">
+          <div *ngIf="signUpForm.get('email')?.hasError('required')">Email is required.</div>
+  
+        </div>
+        <div *ngIf="signUpForm.get('email')?.hasError('emailTaken')">
+          This email is already registered.
+        </div>
+        <div>
+          <label for="password">Password:</label>
+          <input type="password" id="password" formControlName="password">
+          <div *ngIf="signUpForm.get('password')?.hasError('required')">Password is required.</div>
+          <div *ngIf="signUpForm?.get('password')?.hasError('passwordPrefix')">
+            Password must start with '@' or '!'
+          </div>
+        </div>
+        <button type="submit">Sign Up</button>
+      </form>
+    </div>
+  </div>

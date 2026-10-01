@@ -1,0 +1,16 @@
+<app-line1></app-line1>
+
+<div id="container">
+    
+    <div id="plus" (click)="changeRouteToAdd()">
+
+    </div>
+    <div id="search">
+        <input type="text" id="name" placeholder="Event name.." required="" [(ngModel)]="inputText" (click)="changeRouteToSearch()" (input)="changeRouteToSearch()"/>
+        
+        
+    </div>
+</div>
+<router-outlet></router-outlet>
+<!-- <app-add-event></app-add-event> -->
+

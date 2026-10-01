@@ -1,0 +1,79 @@
+#addForm{
+    width: 1050px;
+    height: 550px;
+    background-color:#7AC8FF;
+    border-radius: 1em;
+    margin: 0 auto;
+    
+    
+
+}
+
+#filepickerdiv{
+    width: 525px;
+    height: 450px;
+    text-align: center;
+    
+}
+#filepickerdiv div{
+    padding: 20px;
+    margin: 0 auto;
+}
+#formdiv{
+    width: 525px;
+    
+    padding-right: 50px;
+    padding-left: 50px;
+
+}
+#formdiv p{
+    text-align: center;
+    margin-top: 18px;
+    margin-bottom: 10px;
+}
+
+#flexdiv{
+    display: flex;
+}
+#add{
+    text-align: center;
+    
+}
+#add button{
+    width: 200px;
+    height: 50px;
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+#formdiv input{
+    margin-top: 25px;
+}
+#labels{
+    width: 120px;
+    
+}
+#labels label{
+    margin-top: 3px;
+}
+#inputboxes input{
+    width: 305px;
+}
+#topdiv{
+    
+    width: 425px;
+    display: flex;
+}
+#bottomdiv{
+    width: 425px;
+    text-align: center;
+    margin-top: 25px;
+}
+#currentImg{
+    max-height: 385px;
+    margin-top: 25px;
+}
+#title{
+    text-align: center;
+    font-size: 18pt;
+}

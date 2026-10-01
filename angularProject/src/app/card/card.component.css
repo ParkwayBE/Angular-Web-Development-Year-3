@@ -1,0 +1,13 @@
+.card{
+    height: 300px;
+    max-height: 300px;
+    width: 230px;
+    max-width: 230px;
+    background-color:cornflowerblue;
+    display: inline-block;
+    background-size: cover;
+
+}
+.image{
+    max-width: 200px;
+}

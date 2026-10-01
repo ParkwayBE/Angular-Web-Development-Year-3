@@ -1,0 +1,7 @@
+<!-- <div class="card" *ngFor="let event item of events">{{event["name"]}}
+    <p>card</p>
+
+</div> -->
+<div class="card" *ngFor = "let event of events | customPipe" routerLink="details/{{event.id}}"  style="background-image: url({{event.imageData}});">
+    
+</div>

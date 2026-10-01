@@ -1,0 +1,32 @@
+
+<div id="headerContainer">
+    <div id="optionsContainer">
+        <div id="link1">
+            <a href="" routerLink="/events" (click)="move()">EVENTS</a>
+        </div>
+        <div id="theToggle">
+            
+            <div id="rectangle"></div>
+            <div id="circle1"></div>
+            <div id="circle2"></div>
+            <div id="dot"></div>
+        </div>
+        <div id="link2">
+            <a href="" routerLink="/planner" (click)="move()">PLANNER</a>
+        </div>
+        
+    </div>
+    <div id="signlogin">
+        <ng-template [ngIf]="!authService.isLoggedIn()">
+            <p><a href="" routerLink="/signup">Sign up  OR  </a>
+            <a href="" routerLink="/login">Log In</a></p>
+        </ng-template>
+        <ng-template [ngIf]="authService.isLoggedIn()">
+            <p><a href="" (click)="onLogout()">Logout</a></p>
+        </ng-template>
+        
+    </div>
+    <div id="about">
+        <p><a href="" routerLink="/about">About</a></p>
+    </div>
+</div>

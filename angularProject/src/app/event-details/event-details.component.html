@@ -1,0 +1,49 @@
+<div id="addForm">
+    <div id="title"><p>View Details</p></div>
+    <div id="flexdiv">
+        <div id="filepickerdiv">
+            
+                <p>Event image:</p>
+                
+                    
+                        <img src="{{musicEvent.imageData}}" alt="">
+                    
+                
+            
+        </div>
+        <div id="formdiv">
+            <p id="info">Info:</p>
+            <div id="topdiv">
+                <div id="labels">
+                    <br>
+                    <label for="eventname">Event name:</label><br><br>
+                    <label for="eventdate">Date of event:</label><br><br>
+                    <label for="eventlocation">Event location:</label>
+                </div>
+                <div id="inputboxes">
+                    <br>
+                    <p id="p1">{{musicEvent.name}}</p>
+                    
+                    
+                    <p id="p2">{{musicEvent.date}}</p>
+                    
+                    
+                    <p id="p3"> {{musicEvent.location}}</p>
+                </div>
+            </div>
+            <div id="bottomdiv">
+                <label for="eventdescription">Event description:</label>
+                <br>
+             
+                {{musicEvent.description}}
+            </div>
+        </div>
+    </div>
+    <div id="add">
+        <button routerLink="/events">Close</button>
+        &nbsp;
+        <button routerLink="/events/edit/{{musicEvent.id}}">Edit</button>
+        &nbsp;
+        <button (click)="deleteEventClick()">Delete</button>
+    </div>
+</div>

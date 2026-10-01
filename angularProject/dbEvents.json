@@ -1,0 +1,108 @@
+{
+  "events": [
+    {
+      "id": 2,
+      "name": "Invaderz",
+      "imageData": "invaderz20161231.png",
+      "date": "2023-05-25",
+      "going": false
+    },
+    {
+      "id": 3,
+      "name": "crititcalz",
+      "imageData": "criticalz20171007.png",
+      "date": "2023-06-02",
+      "going": false
+    },
+    {
+      "id": 6,
+      "name": "Rampage Open air 1",
+      "imageData": "rampageopenair2023.png",
+      "date": "2023-08-30",
+      "location": "Mol",
+      "description": "Open air",
+      "going": false
+    },
+    {
+      "id": 7,
+      "name": "criticalz",
+      "imageData": "criticalz20171007.png",
+      "date": "2023-09-21",
+      "location": "",
+      "description": "",
+      "going": false
+    },
+    {
+      "id": 8,
+      "name": "rampage",
+      "imageData": "rampageopenair2023.png",
+      "date": "2023-07-01",
+      "location": "Mol",
+      "description": "kei leuk",
+      "going": false
+    },
+    {
+      "id": 9,
+      "name": "invaderz",
+      "imageData": "invaderz20230101.jpg",
+      "date": "2023-07-13",
+      "location": "het entrepot in Brugge",
+      "description": "in samen werking met bad habitz",
+      "going": false
+    },
+    {
+      "id": 10,
+      "name": "Invaderz 2016",
+      "imageData": "invaderz20161231.png",
+      "date": "2023-05-10",
+      "location": "Brugge",
+      "description": "leuk event",
+      "going": false
+    },
+    {
+      "id": 11,
+      "name": "extrema outdoor",
+      "imageData": "extrema2023.png",
+      "date": "2023-05-26",
+      "location": "Houthalen-Herchteren",
+      "description": "Techno",
+      "going": false
+    },
+    {
+      "id": 12,
+      "name": "dour",
+      "imageData": "dour2023.png",
+      "date": "2023-07-16",
+      "location": "dour",
+      "description": "4 dagen lang",
+      "going": false
+    },
+    {
+      "id": 13,
+      "name": "adscendo",
+      "imageData": "adscendo.png",
+      "date": "2023-01-28",
+      "location": "digitaal",
+      "description": "digitaal",
+      "going": false
+    },
+    {
+      "id": 14,
+      "name": "rock werechter",
+      "imageData": "rockwerchter2023.png",
+      "date": "2023-06-29",
+      "location": "werechter",
+      "description": "werechter",
+      "going": false
+    },
+    {
+      "id": 15,
+      "name": "test2",
+      "imageData": "invaderz20230101.jpg",
+      "date": "2023-05-12",
+      "location": "brugge",
+      "description": "123",
+      "going": false
+    }
+  ]
+}

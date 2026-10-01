@@ -1,0 +1,33 @@
+#container{
+    width: 1200px;
+    
+    height: 1050px;
+    margin: 0 auto;
+    margin-top: 25px;
+    overflow: scroll;
+}
+.year{
+    background-color: #7AC8FF;
+    font-size: 30pt;
+}
+.month{
+    font-size: 20pt;
+    width: 600px;
+    margin: 0 auto;
+    background-color:#7AC8FF;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.item{
+    width: 580px;
+    margin: 0 auto;
+    font-size: 16pt;
+    margin-bottom: 10px;
+}
+button{
+    float: right;
+    font-size: 14pt;
+}
+.going{
+    background-color:darkseagreen
+}

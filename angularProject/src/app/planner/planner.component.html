@@ -1,0 +1,32 @@
+<div id="container">
+    <ng-container *ngFor="let year of years">
+        
+        <div class="year" appMyCustomDirective>
+            {{ year }}
+        </div>
+        <ng-container *ngFor="let month of monthList">
+                <ng-container *ngIf="isMonthVisible(year, month)">
+                    <div class="month" appMyCustomDirective>
+                        {{ month }}
+                    </div>
+                    <div class="item" *ngFor="let event of getDates(year, month)">
+
+                        <p [ngClass]="getStatus(event)">{{event.date}}  {{ event.name }}
+                        
+                        <button *ngIf="event.going==false" (click)="go(event.id)">Go!</button>
+                        <button *ngIf="event.going" (click)="nogo(event.id)">cancel</button>
+                    </p>
+                    </div>
+                </ng-container>
+            </ng-container>
+    </ng-container>  
+           
+
+
+        <div>
+            
+        </div>
+        <div>
+            <p></p>
+        </div>
+</div>

@@ -1,0 +1,32 @@
+#lijn1{
+   
+    height: 300px;
+    margin: 0 auto;
+    
+    
+    overflow: hidden;
+    position: relative;
+  }
+ 
+  
+  .scroll-list {
+    list-style-type: none;
+    white-space: nowrap;
+    overflow: hidden;
+    position: relative;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .scroll-list.scrolling {
+    animation: scroll-left 2s linear infinite;
+  }
+  
+  .scroll-list li {
+    display: inline-block;
+    margin-right: 10px; /* Adjust the margin as needed */
+  }
+  
+  @keyframes scroll-left {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-100%); }
+  }

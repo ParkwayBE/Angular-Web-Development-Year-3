@@ -1,0 +1,107 @@
+#addForm{
+    width: 1050px;
+    height: 550px;
+    background-color:#7AC8FF;
+    border-radius: 1em;
+    margin: 0 auto;
+    
+
+}
+#filepickerdiv
+{
+    
+    width: 525px;
+    height: 385px;
+    
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+}
+#filepickerdiv p {
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+#filepickerdiv div{
+    text-align: center;
+}
+#filepickerdiv div p,#info{
+    margin-top: 10px;
+    margin-bottom: -10px;
+}
+#formdiv{
+
+    width: 525px;
+    height: 450px;
+    
+    
+    padding-left: 50px;
+    padding-right: 50px;
+}
+#flexdiv{
+    display: flex;
+}
+#add{
+    text-align: center
+}
+#add button{
+    width: 200px;
+    height: 50px;
+    margin-top: 30px;
+}
+#formdiv input{
+    margin-top: 25px;
+}
+#labels{
+    width: 120px;
+    
+}
+
+#inputboxes input{
+    width: 305px;
+}
+#p1{
+    margin-top: 3px;
+}
+#p2{
+    margin-top: 27px;
+}
+#p3{
+    margin-top: 27px;
+}
+
+#topdiv{
+    
+    width: 425px;
+    display: flex;
+}
+#bottomdiv{
+    width: 425px;
+    text-align: center;
+    margin-top: 15px;
+}
+#bottomdiv label{
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+#labels label{
+    margin-top: 3px;
+}
+#info{
+    text-align: center;
+    margin-top: 18px;
+    margin-bottom: 10px;
+}
+
+#filepickerdiv img{
+    background-color: black;
+    width: 285px;
+    height: 385px;
+    margin: 0 auto;
+}
+
+#title{
+    text-align: center;
+    font-size: 18pt;
+}

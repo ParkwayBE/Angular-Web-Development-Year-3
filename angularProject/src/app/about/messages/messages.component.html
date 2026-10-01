@@ -1,0 +1,8 @@
+<div>
+    <h3>Subject</h3>
+    <input type="text" name="inputf" id="inputf" [(ngModel)]="inputf">
+    <button (click)="sendMessage()">Send Message</button>
+    <ul>
+      <li *ngFor="let message of messages">{{ message }}</li>
+    </ul>
+</div>

@@ -1,0 +1,24 @@
+#imagedisplayarea{
+    
+    border-radius: 2em;
+    height: 380px;
+
+}
+#displayimagebox{
+    background-color: black;
+    width: 285px;
+    height: 385px;
+    margin: 0 auto;
+}
+#image{
+    max-width: 285px;
+    max-height: 385px;
+}
+#filepicker{
+   
+    text-align: center;
+}
+#filepicker{
+    position: relative;
+    top:-6px
+}
